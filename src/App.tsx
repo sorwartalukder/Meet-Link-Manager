@@ -147,27 +147,9 @@ export default function App() {
         {/* Realistic Mobile Device Frame */}
         <div className="bg-zinc-900 border-[8px] border-zinc-800 rounded-[3rem] shadow-2xl overflow-hidden aspect-[9/19.5] w-full max-w-[380px] mx-auto flex flex-col relative ring-1 ring-white/10">
           
-          {/* Speaker / Notch (Dynamic Island look) */}
-          <div className="absolute top-2 left-1/2 -translate-x-1/2 w-28 h-6 bg-black rounded-full z-50 flex items-center justify-center">
-            <div className="w-2 h-2 rounded-full bg-zinc-800 absolute left-3" />
-            <div className="w-12 h-1 bg-zinc-900 rounded-full" />
-          </div>
+    
 
-          {/* Mobile Status Bar */}
-          <div className="bg-zinc-950 text-zinc-300 h-10 px-6 pt-3 flex justify-between items-center text-xs font-medium tracking-wide z-40 relative">
-            <div className="flex items-center gap-1">
-              <Clock className="w-3.5 h-3.5 text-zinc-400" />
-              <span>{currentTime || "09:14 AM"}</span>
-            </div>
-            <div className="flex items-center gap-1.5">
-              <span className="text-[10px] bg-emerald-500/20 text-emerald-400 px-1 py-0.2 rounded border border-emerald-500/30">5G</span>
-              <Wifi className="w-3.5 h-3.5" />
-              <div className="flex items-center gap-0.5">
-                <span className="text-[10px]">98%</span>
-                <Battery className="w-4 h-4 text-emerald-400 fill-current" />
-              </div>
-            </div>
-          </div>
+    
 
           {/* Mobile Screen Area */}
           <div className="flex-1 bg-zinc-950 flex flex-col justify-between overflow-y-auto overflow-x-hidden p-5 pt-4 scrollbar-thin scrollbar-thumb-zinc-800">
@@ -454,11 +436,6 @@ export default function App() {
                 <span>Settings</span>
               </button>
 
-            </div>
-
-            {/* Simulated Smartphone Home Bar (Apple-style pill at the bottom) */}
-            <div className="flex justify-center mt-3 pt-1">
-              <div className="w-28 h-1.5 bg-zinc-800 rounded-full" />
             </div>
 
           </div>
