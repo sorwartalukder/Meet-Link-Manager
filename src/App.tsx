@@ -223,7 +223,7 @@ export default function App() {
                               <Video className="w-6 h-6" />
                             </div>
                             <div>
-                              <h3 className="text-base font-bold text-white group-hover:text-emerald-400 transition-colors">Join meet</h3>
+                              <h3 className="text-base font-bold text-white group-hover:text-emerald-400 transition-colors">Join dev meet</h3>
                               <p className="text-[11px] text-zinc-400 mt-0.5 Bengali-sub font-medium">সাধারণ মিটিংয়ে যোগ দিন</p>
                             </div>
                           </div>
@@ -259,7 +259,7 @@ export default function App() {
                               <Code2 className="w-6 h-6" />
                             </div>
                             <div>
-                              <h3 className="text-base font-bold text-white group-hover:text-sky-400 transition-colors">Join dev meet</h3>
+                              <h3 className="text-base font-bold text-white group-hover:text-sky-400 transition-colors">Join dev + market meet</h3>
                               <p className="text-[11px] text-zinc-400 mt-0.5 Bengali-sub font-medium">ডেভলপার মিটিংয়ে যোগ দিন</p>
                             </div>
                           </div>
