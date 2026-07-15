@@ -1,0 +1,6 @@
+{
+  "name": "Meet Link Manager",
+  "description": "A clean, modern mobile utility to easily configure and join normal and development Google Meet sessions with persistent links.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
