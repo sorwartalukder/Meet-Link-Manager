@@ -136,7 +136,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-zinc-950 flex flex-col items-center justify-center p-4 md:p-8 font-sans select-none overflow-x-hidden relative">
+   <div className="min-h-screen bg-zinc-950 flex flex-col items-center justify-center p-4 md:p-8 font-sans select-none overflow-x-hidden relative">
       {/* Background Ambience decoration */}
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl -z-10 pointer-events-none" />
       <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-sky-500/10 rounded-full blur-3xl -z-10 pointer-events-none" />
@@ -144,17 +144,6 @@ export default function App() {
       {/* Main Container */}
       <div className="w-full max-w-md relative z-10">
         
-        {/* Top App Header (Outside Mobile Frame) */}
-        <div className="text-center mb-5">
-          <h1 id="app-title" className="text-2xl font-bold text-white tracking-tight flex items-center justify-center gap-2">
-            <Sparkles className="w-6 h-6 text-emerald-400" />
-            <span>Meet Link Manager</span>
-          </h1>
-          <p className="text-xs text-zinc-400 mt-1 Bengali-sub">
-            সহজে গুগল মিট লিঙ্কে জয়েন ও কনফিগার করার মোবাইল হাব
-          </p>
-        </div>
-
         {/* Realistic Mobile Device Frame */}
         <div className="bg-zinc-900 border-[8px] border-zinc-800 rounded-[3rem] shadow-2xl overflow-hidden aspect-[9/19.5] w-full max-w-[380px] mx-auto flex flex-col relative ring-1 ring-white/10">
           
@@ -474,13 +463,6 @@ export default function App() {
 
           </div>
 
-        </div>
-
-        {/* Outer Quick-Tip/Status for user convenience */}
-        <div className="mt-4 bg-zinc-900/50 border border-zinc-800/50 rounded-2xl p-3.5 max-w-[380px] mx-auto text-center">
-          <p className="text-[11px] text-zinc-400 Bengali-sub">
-            💡 <strong>প্রো-টিপ:</strong> প্রথমবার ব্যবহারের সুবিধার্থে অ্যাপটি ডেমো গুগল মিট লিঙ্ক দিয়ে কনফিগার করা আছে। আপনার নিজস্ব লিঙ্ক বসাতে <strong>Settings</strong> ট্যাবে যান।
-          </p>
         </div>
 
       </div>
